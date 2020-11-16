@@ -8,6 +8,9 @@ using System.Threading.Tasks;
 
 namespace GQL_DOT_NET_CORE.GraphQL.GraphQLQueries
 {
+    /// <summary>
+    /// https://graphql-dotnet.github.io/docs/getting-started/schema-types/
+    /// </summary>
     public class AppQuery : ObjectGraphType
     {
         public AppQuery(IOwnerRepository repository)

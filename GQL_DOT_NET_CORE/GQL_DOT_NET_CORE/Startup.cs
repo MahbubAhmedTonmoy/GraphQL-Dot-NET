@@ -41,7 +41,9 @@ namespace GQL_DOT_NET_CORE
             services.AddScoped<IDependencyResolver>(s => new FuncDependencyResolver(s.GetRequiredService));
             services.AddScoped<AppSchema>();
             services.AddGraphQL(o => { o.ExposeExceptions = false; })
-                .AddGraphTypes(ServiceLifetime.Scoped);
+                                .AddGraphTypes(ServiceLifetime.Scoped)
+                                .AddDataLoader();
+
             services.AddControllers()
                 .AddNewtonsoftJson(o => o.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore);
             services.Configure<KestrelServerOptions>(options =>

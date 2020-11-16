@@ -20,5 +20,11 @@ namespace GQL_DOT_NET_CORE.Repository
         {
             return _context.Owners.ToList();
         }
+
+        public Owner GetById(Guid id)
+        {
+            var owner = _context.Owners.FirstOrDefault(x => x.Id == id);
+            return owner;
+        }
     }
 }

@@ -9,5 +9,6 @@ namespace GQL_DOT_NET_CORE.Contracts
     public interface IOwnerRepository
     {
         IEnumerable<Owner> GetAll();
+        Owner GetById(Guid id);
     }
 }

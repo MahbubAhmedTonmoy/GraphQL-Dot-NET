@@ -1,0 +1,17 @@
+C:\Users\ahmed.mahbub\Desktop\GraphQL-Dot-NET\GQL_DOT_NET_CORE\GQL_client\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\ahmed.mahbub\Desktop\GraphQL-Dot-NET\GQL_DOT_NET_CORE\GQL_client\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\ahmed.mahbub\Desktop\GraphQL-Dot-NET\GQL_DOT_NET_CORE\GQL_client\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\ahmed.mahbub\Desktop\GraphQL-Dot-NET\GQL_DOT_NET_CORE\GQL_client\bin\Debug\netcoreapp3.1\GQL_client.exe
+C:\Users\ahmed.mahbub\Desktop\GraphQL-Dot-NET\GQL_DOT_NET_CORE\GQL_client\obj\Debug\netcoreapp3.1\GQL_client.csprojAssemblyReference.cache
+C:\Users\ahmed.mahbub\Desktop\GraphQL-Dot-NET\GQL_DOT_NET_CORE\GQL_client\obj\Debug\netcoreapp3.1\GQL_client.AssemblyInfoInputs.cache
+C:\Users\ahmed.mahbub\Desktop\GraphQL-Dot-NET\GQL_DOT_NET_CORE\GQL_client\obj\Debug\netcoreapp3.1\GQL_client.AssemblyInfo.cs
+C:\Users\ahmed.mahbub\Desktop\GraphQL-Dot-NET\GQL_DOT_NET_CORE\GQL_client\obj\Debug\netcoreapp3.1\GQL_client.RazorTargetAssemblyInfo.cache
+C:\Users\ahmed.mahbub\Desktop\GraphQL-Dot-NET\GQL_DOT_NET_CORE\GQL_client\obj\Debug\netcoreapp3.1\staticwebassets\GQL_client.StaticWebAssets.Manifest.cache
+C:\Users\ahmed.mahbub\Desktop\GraphQL-Dot-NET\GQL_DOT_NET_CORE\GQL_client\obj\Debug\netcoreapp3.1\staticwebassets\GQL_client.StaticWebAssets.xml
+C:\Users\ahmed.mahbub\Desktop\GraphQL-Dot-NET\GQL_DOT_NET_CORE\GQL_client\bin\Debug\netcoreapp3.1\GraphQL.Client.dll
+C:\Users\ahmed.mahbub\Desktop\GraphQL-Dot-NET\GQL_DOT_NET_CORE\GQL_client\bin\Debug\netcoreapp3.1\GraphQL.Client.Abstractions.dll
+C:\Users\ahmed.mahbub\Desktop\GraphQL-Dot-NET\GQL_DOT_NET_CORE\GQL_client\bin\Debug\netcoreapp3.1\GraphQL.Client.Abstractions.Websocket.dll
+C:\Users\ahmed.mahbub\Desktop\GraphQL-Dot-NET\GQL_DOT_NET_CORE\GQL_client\bin\Debug\netcoreapp3.1\GraphQL.Primitives.dll
+C:\Users\ahmed.mahbub\Desktop\GraphQL-Dot-NET\GQL_DOT_NET_CORE\GQL_client\bin\Debug\netcoreapp3.1\System.Reactive.dll
+C:\Users\ahmed.mahbub\Desktop\GraphQL-Dot-NET\GQL_DOT_NET_CORE\GQL_client\bin\Debug\netcoreapp3.1\System.Reactive.xml
+C:\Users\ahmed.mahbub\Desktop\GraphQL-Dot-NET\GQL_DOT_NET_CORE\GQL_client\obj\Debug\netcoreapp3.1\GQL_client.csproj.CopyComplete

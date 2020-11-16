@@ -16,6 +16,21 @@ namespace GQL_DOT_NET_CORE.Repository
             _context = context;
         }
 
+        public Owner CreateOwner(Owner owner)
+        {
+            owner.Id = Guid.NewGuid();
+            _context.Add(owner);
+            _context.SaveChanges();
+            return owner;
+        }
+
+        public void Deleteowner(Guid id)
+        {
+            var owner = _context.Owners.FirstOrDefault(x => x.Id == id);
+            _context.Remove(owner);
+            _context.SaveChanges();
+        }
+
         public IEnumerable<Owner> GetAll()
         {
             return _context.Owners.ToList();
@@ -25,6 +40,14 @@ namespace GQL_DOT_NET_CORE.Repository
         {
             var owner = _context.Owners.FirstOrDefault(x => x.Id == id);
             return owner;
+        }
+
+        public Owner UpdateOwner(Owner dbOwner, Owner owner)
+        {
+            dbOwner.Name = owner.Name;
+            dbOwner.Address = owner.Address;
+            _context.SaveChanges();
+            return dbOwner;
         }
     }
 }

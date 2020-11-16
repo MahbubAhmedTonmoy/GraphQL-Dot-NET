@@ -14,6 +14,7 @@ namespace GQL_DOT_NET_CORE.GraphQL.GraphQLSchema
             :base(resolver)
         {
             Query = resolver.Resolve<AppQuery>();
+            Mutation = resolver.Resolve<AppMutation>();
         }
     }
 }

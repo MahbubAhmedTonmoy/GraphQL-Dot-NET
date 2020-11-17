@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "aJBFEnkCu2nNU7qTWR1UIf4iubyfEkqoT42ICR6nNLdqi8CUKj+5Ez/qVFXQZbkWW4DLujvxC4L4OPXgZPa4HA==",
+  "dgSpecHash": "Y+WRv0N38wzTeUC5PRlGXRVaCddqkfvOCoevyXXkyieaBbAHjGB56Mb2p1XI1bfagXc1zHM+KCg1h2HN4jncZA==",
   "success": true,
   "projectFilePath": "C:\\Users\\ahmed.mahbub\\Desktop\\GraphQL-Dot-NET\\GQL_DOT_NET_CORE\\GQL_client\\GQL_client.csproj",
   "expectedPackageFiles": [
@@ -9,7 +9,13 @@
     "C:\\Users\\ahmed.mahbub\\.nuget\\packages\\graphql.client.abstractions.websocket\\3.1.2\\graphql.client.abstractions.websocket.3.1.2.nupkg.sha512",
     "C:\\Users\\ahmed.mahbub\\.nuget\\packages\\graphql.client.serializer.newtonsoft\\3.1.2\\graphql.client.serializer.newtonsoft.3.1.2.nupkg.sha512",
     "C:\\Users\\ahmed.mahbub\\.nuget\\packages\\graphql.primitives\\3.1.2\\graphql.primitives.3.1.2.nupkg.sha512",
+    "C:\\Users\\ahmed.mahbub\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\ahmed.mahbub\\.nuget\\packages\\microsoft.openapi\\1.1.4\\microsoft.openapi.1.1.4.nupkg.sha512",
     "C:\\Users\\ahmed.mahbub\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\ahmed.mahbub\\.nuget\\packages\\swashbuckle.aspnetcore\\5.5.1\\swashbuckle.aspnetcore.5.5.1.nupkg.sha512",
+    "C:\\Users\\ahmed.mahbub\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.5.1\\swashbuckle.aspnetcore.swagger.5.5.1.nupkg.sha512",
+    "C:\\Users\\ahmed.mahbub\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.5.1\\swashbuckle.aspnetcore.swaggergen.5.5.1.nupkg.sha512",
+    "C:\\Users\\ahmed.mahbub\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.5.1\\swashbuckle.aspnetcore.swaggerui.5.5.1.nupkg.sha512",
     "C:\\Users\\ahmed.mahbub\\.nuget\\packages\\system.reactive\\4.3.2\\system.reactive.4.3.2.nupkg.sha512"
   ],
   "logs": []

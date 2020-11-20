@@ -39,6 +39,28 @@ namespace GQL_client.Consumer
             return response.Data.Owners;
         }
 
+        public async Task<Owner> GetOwnerById(Guid id)
+        {
+            var query = new GraphQLRequest
+            {
+                Query = @" query ownerQuery($ownerID: ID!) {
+                          owner(ownerId: $ownerID) {
+                            id
+                            name
+                            address
+                            accounts {
+                              id
+                              type
+                              description
+                            }
+                          }
+                        }",
+                Variables = new { ownerId = id }
+            };
+            var response = await _graphQLClient.SendMutationAsync<ResponseOwnerType>(query);
+
+            return response.Data.Owner;
+        }
         public async Task<Owner> CreateOwner(OwnerInput ownerInput)
         {
             var query = new GraphQLRequest
@@ -57,7 +79,39 @@ namespace GQL_client.Consumer
 
             return response.Data.Owner;
         }
+        public async Task<Owner> UpdateOwner(Guid id, OwnerInput updatedData)
+        {
+            var query = new GraphQLRequest
+            {
+                Query = @"mutation($owner: ownerInput!, $ownerId: ID!) {
+                            updateOwner(owner: $owner, ownerId: $ownerId) {
+                            id,
+                            name,
+                            address
+                            }
+                         }
+                       ",
+                Variables = new { owner = updatedData, ownerId = id }
+            };
+            var response = await _graphQLClient.SendMutationAsync<ResponseOwnerType>(query);
+
+            return response.Data.Owner;
+        }
+
+        public async Task<Owner> DeleteOwner(Guid Id)
+        {
+            var query = new GraphQLRequest
+            {
+                Query = @" mutation($ownerId: ID!) {
+                                deleteOwner(ownerId: $ownerId) 
+                            }",
+                Variables = new { ownerId = Id }
+            };
+            var response = await _graphQLClient.SendMutationAsync<ResponseOwnerType>(query);
+            return response.Data.Owner;
+        }
     }
+    
     public class ResponseOwnerCollectionType
     {
         public List<Owner> Owners { get; set; }

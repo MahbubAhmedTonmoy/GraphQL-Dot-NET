@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ahmed.mahbub\\Desktop\\GraphQL-Dot-NET\\GQL_DOT_NET_CORE\\GQL_client\\GQL_client.csproj": {}
+    "E:\\Mahbub\\GraphQL-Dot-NET\\GQL_DOT_NET_CORE\\GQL_client\\GQL_client.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ahmed.mahbub\\Desktop\\GraphQL-Dot-NET\\GQL_DOT_NET_CORE\\GQL_client\\GQL_client.csproj": {
+    "E:\\Mahbub\\GraphQL-Dot-NET\\GQL_DOT_NET_CORE\\GQL_client\\GQL_client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ahmed.mahbub\\Desktop\\GraphQL-Dot-NET\\GQL_DOT_NET_CORE\\GQL_client\\GQL_client.csproj",
+        "projectUniqueName": "E:\\Mahbub\\GraphQL-Dot-NET\\GQL_DOT_NET_CORE\\GQL_client\\GQL_client.csproj",
         "projectName": "GQL_client",
-        "projectPath": "C:\\Users\\ahmed.mahbub\\Desktop\\GraphQL-Dot-NET\\GQL_DOT_NET_CORE\\GQL_client\\GQL_client.csproj",
+        "projectPath": "E:\\Mahbub\\GraphQL-Dot-NET\\GQL_DOT_NET_CORE\\GQL_client\\GQL_client.csproj",
         "packagesPath": "C:\\Users\\ahmed.mahbub\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ahmed.mahbub\\Desktop\\GraphQL-Dot-NET\\GQL_DOT_NET_CORE\\GQL_client\\obj\\",
+        "outputPath": "E:\\Mahbub\\GraphQL-Dot-NET\\GQL_DOT_NET_CORE\\GQL_client\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ahmed.mahbub\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,6 +28,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -39,6 +40,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "GraphQL.Client": {
               "target": "Package",
@@ -71,7 +73,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }

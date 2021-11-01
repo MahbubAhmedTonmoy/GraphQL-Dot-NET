@@ -1,0 +1,52 @@
+﻿query {
+  items {
+   id
+   title
+   description
+   done
+   listId
+   itemList{
+     id
+     name
+   }
+  }
+}
+
+mutation{
+  addList(input: {
+    name: "Food"
+  })
+  {
+    list
+    {
+      name
+      id
+    }
+  }
+}
+
+mutation{
+  addItem(input: {
+    title: "Bring laptop",
+    description: "Bring the laptop with charger",
+    done: true,
+    listId: 5
+  })
+  {
+    item
+    {
+      id
+      title
+      description
+    }
+
+  }
+}
+
+query{
+  lists
+  {
+    name
+    id
+  }
+}
